@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Conversor de Moedas</string>
+    <string name="valor_em_reais">Valor em Reais:</string>
+    <!--<nome da variavel>valor da variavel-->
+    <string name="valor_em_dolar">Valor em Dólares:</string>
+    <string name="valor_em_euro">Valor em Euros:</string>
+    <string name="clacular">Calcular</string>
+    <string name="valor">Valor...</string>
+</resources>

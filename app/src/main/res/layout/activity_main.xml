@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.andrade.conversormoedas.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qual o valor em reais?"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/preto"
+
+     />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint= "@string/valor"
+        android:id="@+id/edit_value"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "@string/valor_em_dolar"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/text_dolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valor_em_dolar"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/verde"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/valor_em_euro"/>
+
+    <TextView
+        android:id = "@+id/text_euro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valor_em_euro"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textColor="@color/verde"
+
+        />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@color/verde"
+        android:layout_gravity="center"
+        android:text="CALCULAR" />
+</LinearLayout>
+<!-- largura android:layout_width="wrap_content"; e o outro é altura -->
+<!-- objetos que quero manipular tenho que dar um id
+por isso android:id= "@+id/nome da "variavel" -->
+<!-- usando o LinearLayout: viewGrup é um tipo de elemento de interface que pode conter elementos dentro dele
+-->
+<!-- para mudar a cor do aplicativo deve-se ir no androidmanifest -->
